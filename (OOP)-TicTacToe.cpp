@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-class TicTacToe {
+class TicTacToe 
+{
 private:
     int** board;  
     int win = -1;     
